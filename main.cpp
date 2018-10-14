@@ -90,8 +90,8 @@ void reshape(int w, int h) {
     glTranslatef(gl_width / 2, gl_height / 2, 0);
 }
 
-
 int main(int argc, char **argv) {
+    FreeConsole();
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowSize(window_w, window_h);
